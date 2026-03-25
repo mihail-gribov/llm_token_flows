@@ -52,6 +52,10 @@ The 36 layers of the model divide into distinct functional zones:
 
 **L34–L35: Output formatting.** The model shifts from *what to say* to *how to say it*. This includes tokenization decisions ("hydrogen" → "Hydro" + "gen" for capitalized output) and stylistic adjustments. The answer itself is already decided — these layers shape its surface form.
 
+## PDF version
+
+A single PDF combining all examples with diagrams is available: [`llm_token_flow.pdf`](llm_token_flow.pdf)
+
 ## License
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
